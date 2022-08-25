@@ -104,6 +104,7 @@ public class Main {
             case 2 -> deleteProduct();
             case 3 -> findProduct();
             case 4 -> show();
+            case -1 -> System.out.println("out");
             default -> System.out.println("Nhap 1 hoac 2 hoac 3 hoac 4 hoac -1");
         }
     }
